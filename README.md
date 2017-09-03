@@ -1,6 +1,6 @@
 # StopWatch
 
-**StopWatch** is a simple and fast utility for measuring code performance with a consistent API for multiple languages. The idea was born out of the need to do benchmarking over the same code-block with the need to understand the **average (mean)**, **min**, **max**, **standard deviation**, **variance**, **count**, and **last execution time**  between multiple iterations.
+**StopWatch** is a fast and simple utility for measuring code performance with a consistent API for multiple languages. The idea was born out of the need to do benchmarking over the same code-block with the need to understand the **average (mean)**, **min**, **max**, **standard deviation**, **variance**, **count**, and **last execution time**  between multiple iterations.
 
 **Example**
 
@@ -12,7 +12,7 @@
 | ExampleClass.method4() | 3     | 0   | 1   | 0.333333 | 0.2222222 | 0.471404 | 1                 | 
 | ExampleClass.method5() | 3     | 0   | 0   | 0        | 0         | 0        | 0                 | 
 
-# API
+## API
 
 | Method | Description |
 |---------|------------|
@@ -22,7 +22,7 @@
 | **stats()** | An key-value pair containing the stats per given identifier |
 | **table()** | String representation of a table |
 
-# How to use
+## How to use
 **PYTHON**
 ```python
 from stopwatch import StopWatch
@@ -46,8 +46,7 @@ console.log(StopWatch.table())
 ```
 
 
-# License
-----
+## License
 
 MIT
 
