@@ -12,7 +12,7 @@
 | ExampleClass.method4() | 3     | 0   | 1   | 0.333333 | 0.2222222 | 0.471404 | 1                 | 
 | ExampleClass.method5() | 3     | 0   | 0   | 0        | 0         | 0        | 0                 | 
 
-## API
+# API
 
 | Method | Description |
 |---------|------------|
@@ -22,7 +22,7 @@
 | **stats()** | An key-value pair containing the stats per given identifier |
 | **table()** | String representation of a table |
 
-## How to use
+# How to use
 **PYTHON**
 ```python
 from stopwatch import StopWatch
@@ -46,7 +46,7 @@ console.log(StopWatch.table())
 ```
 
 
-## License
+# License
 
 MIT
 
